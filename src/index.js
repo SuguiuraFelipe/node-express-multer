@@ -1,5 +1,5 @@
 const express = require('express')
-const uploadMiddleware = require('./middlewares/upload')
+const uploadMiddleware = require('./middlewares/upload-middleware')
 const app = express()
 
 app.use(express.static('public'))
